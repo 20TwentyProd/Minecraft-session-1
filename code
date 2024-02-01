@@ -1,0 +1,8 @@
+def reset():
+       agent.teleport(world(7,-60,-27), SOUTH)
+player.on_chat(“reset”, reset)
+
+def go():
+       agent.move(FORWARD,2)
+
+player.on_chat(“go”, go)
